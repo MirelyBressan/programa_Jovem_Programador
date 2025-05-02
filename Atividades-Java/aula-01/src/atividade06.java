@@ -5,10 +5,13 @@ processamento da troca.**/
 
 import java.util.Scanner; 
  
-public class atividade06 { 
-    public static void main(String[] args) { 
+public class atividade06{ 
+    public static void main(String[] args) {
+         
         Scanner leitura = new Scanner(System.in); 
-        int A, B, temp; 
+        int A;
+        int B;
+        int temp; 
  
         System.out.print("Digite A: "); 
         A = leitura.nextInt(); 

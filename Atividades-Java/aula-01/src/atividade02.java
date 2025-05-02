@@ -4,11 +4,14 @@ notas é: 2,3 e 5, respectivamente.**/
 
 import java.util.Scanner; 
  
-public class atividade02 { 
+public class atividade02{ 
     public static void main(String[] args) { 
 
         Scanner leitura = new Scanner(System.in); 
-        double nota1, nota2, nota3, media; 
+        double nota1;
+        double nota2;
+        double nota3;
+        double media;
  
         System.out.print("Nota 1: "); 
         nota1 = leitura.nextDouble(); 

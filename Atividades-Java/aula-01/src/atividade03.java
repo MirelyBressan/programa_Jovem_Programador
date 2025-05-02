@@ -5,11 +5,12 @@ carro e escreva o custo final ao consumidor.**/
 
 import java.util.Scanner; 
  
-public class atividade03 { 
+public class atividade03{ 
     public static void main(String[] args) { 
 
         Scanner leitura = new Scanner(System.in); 
-        double custoFabrica, custoFinal; 
+        double custoFabrica;
+        double custoFinal; 
  
         System.out.print("Custo de fábrica: "); 
         custoFabrica = leitura.nextDouble(); 

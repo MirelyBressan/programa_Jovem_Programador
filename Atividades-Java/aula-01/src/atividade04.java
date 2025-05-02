@@ -6,11 +6,12 @@ funcionário e informa o seu novo salário acrescido de 25%.**/
 
 import java.util.Scanner; 
  
-public class atividade04 { 
+public class atividade04{ 
     public static void main(String[] args) { 
 
         Scanner leitura = new Scanner(System.in); 
-        double salario, novoSalario; 
+        double salario;
+        double novoSalario; 
  
         System.out.print("Salário atual: "); 
         salario = leitura.nextDouble(); 

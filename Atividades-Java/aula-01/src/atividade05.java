@@ -8,10 +8,13 @@ diferentes a cada funcionário.**/
 
 import java.util.Scanner; 
  
-public class atividade05 { 
-    public static void main(String[] args) { 
+public class atividade05{ 
+    public static void main(String[] args) {
+         
         Scanner leitura = new Scanner(System.in); 
-        double salario, percentual, novoSalario; 
+        double salario;
+        double percentual;
+        double novoSalario; 
  
         System.out.print("Salário atual: "); 
         salario = leitura.nextDouble(); 
