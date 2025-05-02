@@ -23,5 +23,7 @@ public class atividade07{
         volume = comprimento * largura * altura; 
  
         System.out.println("Volume da caixa: " + volume); 
+
+        leitura.close();
     } 
 }

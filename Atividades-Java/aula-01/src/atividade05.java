@@ -25,5 +25,7 @@ public class atividade05{
         novoSalario = salario + (salario * (percentual / 100)); 
  
         System.out.println("Novo salário: R$ " + novoSalario); 
+
+        leitura.close();
     } 
 }

@@ -22,6 +22,8 @@ public class atividade02{
  
         media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10; 
  
-        System.out.println("Média ponderada: " + media); 
+        System.out.println("Média ponderada: " + media);
+
+        leitura.close();
     } 
 } 

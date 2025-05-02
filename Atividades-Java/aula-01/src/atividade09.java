@@ -6,7 +6,7 @@ import java.util.Scanner;
  
 public class atividade09{ 
     public static void main(String[] args) { 
-        
+
         Scanner leitura= new Scanner(System.in); 
         double valorDolar;
         double cotacao;
@@ -20,5 +20,7 @@ public class atividade09{
         valorReal = valorDolar * cotacao; 
  
         System.out.println("Valor em reais: R$ " + valorReal); 
+
+        leitura.close();
     } 
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
  
 public class atividade10{ 
     public static void main(String[] args) { 
-        
+
         Scanner leitura = new Scanner(System.in); 
         int A;
         int B;
@@ -23,5 +23,8 @@ public class atividade10{
         resultado = (A + B + C) * (A + B + C); 
  
         System.out.println("Resultado: " + resultado); 
+
+        leitura.close();
+        
     } 
 } 

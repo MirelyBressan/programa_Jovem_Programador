@@ -19,5 +19,7 @@ public class atividade04{
         novoSalario = salario * 1.25; 
  
         System.out.println("Novo salário: R$ " + novoSalario); 
+
+        leitura.close();
     } 
 }

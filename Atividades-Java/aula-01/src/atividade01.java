@@ -20,6 +20,8 @@ public class atividade01{
  
         media = (nota1 + nota2 + nota3) / 3; 
  
-        System.out.println("A média final é: " + media); 
+        System.out.println("A média final é: " + media);
+
+        leitura.close();
     } 
 } 

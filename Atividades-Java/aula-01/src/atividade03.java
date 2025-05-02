@@ -17,6 +17,8 @@ public class atividade03{
  
         custoFinal = custoFabrica + (custoFabrica * 0.45); 
  
-        System.out.println("Custo final ao consumidor: R$ " + custoFinal); 
+        System.out.println("Custo final ao consumidor: R$ " + custoFinal);
+        
+        leitura.close();
     } 
 }

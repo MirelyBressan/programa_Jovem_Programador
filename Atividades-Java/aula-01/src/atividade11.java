@@ -6,7 +6,7 @@ import java.util.Scanner;
  
 public class atividade11{ 
     public static void main(String[] args) { 
-        
+
         Scanner leitura= new Scanner(System.in); 
         double A;
         double B; 
@@ -20,5 +20,7 @@ public class atividade11{
         System.out.println("Subtração: " + (A - B)); 
         System.out.println("Multiplicação: " + (A * B)); 
         System.out.println("Divisão: " + (A / B)); 
+
+        leitura.close();
     } 
 }

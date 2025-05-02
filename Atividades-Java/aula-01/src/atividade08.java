@@ -6,7 +6,7 @@ import java.util.Scanner;
  
 public class atividade08{ 
     public static void main(String[] args) { 
-        
+
         Scanner leitura = new Scanner(System.in); 
         int A; 
         int B;
@@ -19,6 +19,8 @@ public class atividade08{
  
         resultado = (A - B) * (A - B); 
  
-        System.out.println("Quadrado da diferença: " + resultado); 
+        System.out.println("Quadrado da diferença: " + resultado);
+        
+        leitura.close();
     } 
 }

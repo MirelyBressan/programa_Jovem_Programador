@@ -22,6 +22,8 @@ public class atividade06{
         A = B; 
         B = temp; 
  
-        System.out.println("Após troca: A = " + A + ", B = " + B); 
+        System.out.println("Após troca: A = " + A + ", B = " + B);
+        
+        leitura.close();
     } 
 } 
