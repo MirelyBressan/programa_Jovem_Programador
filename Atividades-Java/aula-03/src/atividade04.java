@@ -21,8 +21,9 @@ public class atividade04 {
                 contagemPares++;
             }
         }
+        
         System.out.println("A quantidade de números pares é: " + contagemPares);
-
+        
         leitura.close();
 
     }
