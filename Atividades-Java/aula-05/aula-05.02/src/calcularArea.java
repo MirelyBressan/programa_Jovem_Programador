@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calc {
+public class calcularArea {
     public static void main(String[] args) throws Exception {
         Scanner leitura = new Scanner(System.in);
         Quadrado quadrado = new Quadrado();
@@ -14,6 +14,9 @@ public class calc {
 
         System.out.println("Área do quadrado: " + quadrado.calcularArea());
         System.out.println("Área do triângulo: " + triangulo.calcularArea());
-        leitura.close();
+
+         leitura.close();
     }
+}
+
         
