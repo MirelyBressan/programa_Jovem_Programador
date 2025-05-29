@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class calcular {
     public static void main(String[] args) throws Exception {
         Scanner leitura = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
