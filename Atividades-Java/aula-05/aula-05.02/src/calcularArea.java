@@ -8,9 +8,11 @@ public class calcularArea {
 
         System.out.println("Digite o valor da base: ");
         quadrado.base = leitura.nextDouble();
+        triangulo.base = quadrado.base; // Usando a mesma base para o triângulo
 
         System.out.println("Digite o valor da altura: ");
         quadrado.altura = leitura.nextDouble();
+        triangulo.altura = quadrado.altura; // Usando a mesma altura para o triângulo
 
         System.out.println("Área do quadrado: " + quadrado.calcularArea());
         System.out.println("Área do triângulo: " + triangulo.calcularArea());
