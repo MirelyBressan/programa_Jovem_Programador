@@ -5,11 +5,12 @@ Método: calculaDesconto(), que retorna o valor com desconto de 50% se o
 tipo for "estudante".
 Na principal: Solicitar o tipo de ingresso e valor. Mostrar o valor
 final com ou sem desconto. */
-
+package calcularIngresso;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        
         Scanner leitura = new Scanner(System.in);
         Ingresso ingresso = new Ingresso(); /**Cria um objeto Ingresso, Iniciando com letra maiúscula é a classe, com a letra minuscula é o objeto */ 
         

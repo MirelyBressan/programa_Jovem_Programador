@@ -2,6 +2,8 @@
 Atributos: nome, nota1, nota2.
 Método: calculaMedia() e opcionalmente verificaAprovacao(). */
 
+package calcularNota;
+
 public class Aluno {
 
     String nome;

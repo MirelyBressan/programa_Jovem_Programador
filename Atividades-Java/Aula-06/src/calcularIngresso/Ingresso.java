@@ -1,7 +1,4 @@
-/**Classe Ingresso:
-Atributos: tipo, preco.
-Método: calculaDesconto(), que retorna o valor com desconto de 50% se o
-tipo for "estudante". */
+package calcularIngresso;
 
 public class Ingresso{
     int tipo;
