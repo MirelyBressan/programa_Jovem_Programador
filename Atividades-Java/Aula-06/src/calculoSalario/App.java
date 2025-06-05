@@ -25,6 +25,7 @@ public class App {
         System.out.print("Digite o percentual de bônus do funcionário: ");
         funcionario.bonusPercentual = leitura.nextDouble();
 
+        // Calcula o salário final
         System.out.println("Funcionário: " + funcionario.nome);
         System.out.printf("Salário final com bônus: R$ %.2f%n", funcionario.calculaSalarioFinal());
         

@@ -33,6 +33,7 @@ public class App {
         int remover = leitura.nextInt();
         produto.removerEstoque(remover);
 
+        // Exibe o resumo do produto e o valor total em estoque
         System.out.println("\nResumo do produto:");
         System.out.println("Nome: " + produto.nome);
         System.out.println("Quantidade: " + produto.quantidade);
