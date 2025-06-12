@@ -4,8 +4,6 @@
 
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Collections;
-
 
 
 public class Exemplo02 {
@@ -36,9 +34,12 @@ public class Exemplo02 {
         System.out.println("\nFuncionárias mulheres com salário acima de R$5.000,00: ");
         for (int i = 0; i < nomes.size(); i++) {
             if (generos.get(i).equalsIgnoreCase("F") && salarios.get(i) > 5000) {
-                System.out.println("Nome: " + nomes.get(i) + ", Gênero: " + generos.get(i) + ", Salário: R$" + salarios.get(i));
+                System.out.println("Nome: " + nomes.get(i) + 
+                                    ", Gênero: " + generos.get(i) + 
+                                    ", Salário: R$" + salarios.get(i));
             }
         }
+        
         leitura.close();
     }
 }
